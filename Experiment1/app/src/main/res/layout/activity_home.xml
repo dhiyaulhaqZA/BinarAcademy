@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llhome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dhiyaulhaqza.experiment1.HomeActivity">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context="com.dhiyaulhaqza.experiment1.HomeActivity">
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Text dari activity_home"-->
+    <!--android:textSize="16sp" />-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Text dari activity_home"
-            android:textSize="16sp" />
+    <!--<include layout="@layout/layout_tambahan" />-->
 
-        <include layout="@layout/layout_tambahan" />
+    <!--<include layout="@layout/activity_main" />-->
 
-        <include layout="@layout/activity_main" />
-
-    </LinearLayout>
-</merge>
+</LinearLayout>
